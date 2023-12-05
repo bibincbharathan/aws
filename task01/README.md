@@ -1,3 +1,1 @@
-# How to Create EKS Cluster Using Terraform
-
- You can find tutorial [here](https://antonputra.com/terraform/how-to-create-eks-cluster-using-terraform/).
+# Here we are creating EKS cluster using terraform and deploying a sample application and exposing with LoadBalancer.
