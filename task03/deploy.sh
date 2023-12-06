@@ -4,18 +4,6 @@ set -ex
 
 aws eks update-kubeconfig --name demo --region us-east-1
 
-# Create Custom Resource Definitions
-
-kubectl create -f prometheus-operator-crd
-
-# Create Kubernetes Namespaces
-
-kubectl apply -f namespaces
-
-# Deploy Monitoring Components
-
-kubectl apply -R -f monitoring
-
 # Deploy Zookeeper
 
 kubectl apply -f zookeeper
