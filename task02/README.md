@@ -1,4 +1,13 @@
-Prometheus and Grafana will be deployed in EKS cluster 
+# Prometheus and Grafana will be deployed in EKS cluster 
+
+Task 2: Setting up Prometheus and Grafana
+
+Step 1: Begin by creating variables specifying the Kubernetes cluster to be targeted for deploying these two packages.
+
+Step 2: Create Prometheus from the Helm repository.
+
+Step 3: Proceed to create Grafana and configure it according to your requirements in yaml.
+
 
 
 This repository shows how to use Helm with Terraform using the official [Helm provider](https://registry.terraform.io/providers/hashicorp/helm/2.4.1). 
